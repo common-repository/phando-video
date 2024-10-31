@@ -1,0 +1,78 @@
+.settings-heading{
+    color: #245a90;
+    font-size: 18px;
+}
+.embed-info{
+    background-color: #ccddff;
+    color: #666666;
+    max-width: 90%;
+    padding: 1px 20px;
+}
+.embed-content{
+    border-left: 3px solid #6699ff;
+    font-size: 16px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.get-premium-heading{
+    border-bottom: 1px solid #6699ff;
+    color: #000549;
+    font-size: 19px;
+    padding: 10px;
+    max-width: 500px;
+}
+.premium{
+    background-color: #fff;
+    border: 1px solid #ccddff;
+    border-radius: 10px;
+    margin-top: 30px;
+    max-width: 430px;
+    padding: 10px;
+    box-shadow: 3px 2px 5px #bbb;
+}
+.premium-list li span.num-icon{
+    background-image: url("numbers.png");
+    background-repeat: no-repeat;
+    background-size: 93px 31px;
+    content: "";
+    height: 31px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 31px;
+}
+.premium-list li.one span.num-icon{
+    background-position: 0 0;
+}
+.premium-list li.two span.num-icon{
+    background-position: -31px 0;
+}
+.premium-list li.three span.num-icon{
+    background-position: -62px 0;
+}
+.premium li{
+    margin-bottom: 17px;
+    padding-left: 44px;
+    padding-top: 4px;
+    position: relative;
+    min-height:60px;
+    border-bottom: 1px solid #ccddff;
+
+}
+.premium-block{
+    display: inline;
+    float:left;
+    max-width: 200px;
+}
+.premium img{
+    height: 40px;
+    width: 40px;
+}
+.premium-list a{
+text-decoration: none;    
+}
+@media only screen and (max-width: 400px){
+    .premium img{
+        display:none;
+    }
+}

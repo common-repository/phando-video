@@ -1,0 +1,7 @@
+
+@media only screen and (min-width: 600px){
+    .phando_video iframe{
+        height: 400px;
+        width: 600px;
+    }
+}
